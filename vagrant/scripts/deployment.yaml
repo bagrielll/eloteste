@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eloteste
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: eloteste
+  template:
+    metadata:
+      labels:
+        app: eloteste
+    spec:
+      containers:
+      - name: eloteste
+        image: bagrielmartins/eloteste:latest
+        ports:
+        - containerPort: 3000
