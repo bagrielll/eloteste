@@ -50,9 +50,9 @@ Crie um namespace
 
 Acesse o diretório /scripts/ para criar o Deployment e o Service
 ```bash
-  cd /scripts/ 
-  kubectl apply -f deployments.yaml -n eloteste
-  kubectl apply -f services.yaml -n eloteste
+  cd scripts/ 
+  kubectl apply -f deployment.yaml -n eloteste
+  kubectl apply -f service.yaml -n eloteste
 ```
 
 Verifique se está tudo UP e copie o nome do POD
