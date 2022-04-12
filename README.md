@@ -28,29 +28,26 @@ Clone o repositório
   git clone https://github.com/bagrielll/eloteste.git
 ```
 
-```
 Entre no diretório /vagrant/ e inicie a VM
-
 ```bash
   cd eloteste/vagrant/ && vagrant up
 ```
-Acesse a VM
 
+Acesse a VM
 ```bash
   vagrant ssh
-
 ```
 ## Iniciando a aplicação
 Inicie o Minikube
-
 ```bash
   minikube start
 ```
-Crie um namespace
 
+Crie um namespace
 ```bash
   kubectl create namespace eloteste
 ```
+
 Acesse o diretório /scripts/ para criar o Deployment e o Service
 ```bash
   cd /scripts/ 
