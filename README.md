@@ -27,14 +27,12 @@ Clone o repositório
 ```bash
   git clone https://github.com/bagrielll/eloteste.git
 ```
-Crie um diretório para os scripts do Kubernetes
-```bash
-  mkdir /home/$USER/eloteste/vagrant/scripts/
+
 ```
 Entre no diretório /vagrant/ e inicie a VM
 
 ```bash
-  cd /eloteste/vagrant/ && vagrant up
+  cd eloteste/vagrant/ && vagrant up
 ```
 Acesse a VM
 
