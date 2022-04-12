@@ -1,7 +1,7 @@
 FROM python:3.8-alpine
-COPY . /eloteste 
-WORKDIR /eloteste
-RUN pip install -r requirements.txt
+COPY . /eloteste/sonda
+WORKDIR /eloteste/sonda
+RUN pip install -r sonda/requirements.txt
 EXPOSE 3000
 ENTRYPOINT [ "python" ]
-CMD ["main.py" ]
+CMD ["sonda/main.py" ]
